@@ -9,7 +9,10 @@
 
         <div id="app">
             <h1>{{messaggio}}</h1>
+            <!-- forma estesa di v-bind-->
             <img v-bind:src="immagineJs">
+            <!-- forma contratta di v-bind-->
+            <img :src="immagineLink">
         </div>
         
         <!-- development version, includes helpful console warnings -->
